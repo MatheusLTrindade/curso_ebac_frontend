@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de Formulário</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Validação de Formulário</h2>
+    <form id="form">
+      <label for="campoA">Campo A:</label>
+      <input type="number" id="campoA" name="campoA" placeholder="Digite um número" required>
+
+      <label for="campoB">Campo B:</label>
+      <input type="number" id="campoB" name="campoB" placeholder="Digite outro número" required>
+
+      <button type="submit">Submeter</button>
+    </form>
+
+    <p id="mensagem"></p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
